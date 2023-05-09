@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../assets/css/usuario/login.css">
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <div class="form">
+                <h1>Criar Conta</h1>
+                <input type="text" placeholder="Nome" id="cadastro-nome" />
+                <input type="email" placeholder="Email" id="cadastro-email" />
+                <input type="password" placeholder="Senha" id="cadastro-senha" />
+                <input type="password" placeholder="Confirmar Senha" id="cadastro-confirmar-senha" />
+                <button id="cadastro-usuario">Registrar</button>
+            </div>
+        </div>
+        <div class="form-container sign-in-container">
+            <div class="form">
+                <h1>Entrar</h1>
+                <input type="email" placeholder="Email" id="login-email" />
+                <input type="password" placeholder="Senha" id="login-senha" />
+                <a href="#">Esqueceu sua senha?</a>
+                <button id="login-usuario">Entrar</button>
+            </div>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Bem Vindo!</h1>
+                    <p>Caso já possua uma conta, clique no botão abaixo</p>
+                    <button class="ghost" id="signIn">Entrar</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Olá, de Volta!</h1>
+                    <p>Caso não possua uma conta ainda, clique no botão abaixo!</p>
+                    <button class="ghost" id="signUp">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="../assets/js/jquery/jquery.js"></script>
+<script src="../assets/js/jquery/ajax.js"></script>
+
+    <script src="../assets/js/usuario/transicao/transicao.js"></script>
+    <script src="../assets/js/usuario/cadastro/cadastro.js"></script>
+    <script src="../assets/js/usuario/login/login.js"></script>
+
+</body>
+
+</html>
